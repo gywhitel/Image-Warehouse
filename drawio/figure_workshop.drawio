@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T13:21:51.727Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="b3wcehuhGzG1aDUSYq4_" version="21.3.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-29T13:22:55.313Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="NqudeL3_WxnYc-QYTAuD" version="21.3.6" type="github" pages="2">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
     <mxGraphModel dx="1857" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -125,7 +125,7 @@
     <mxGraphModel dx="2426" dy="1564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="SmqsWfbFAaSB6eGqA43s-1" value="节点" style="locked=1;" parent="0" />
+        <mxCell id="SmqsWfbFAaSB6eGqA43s-1" value="节点" style="" parent="0" />
         <mxCell id="SmqsWfbFAaSB6eGqA43s-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="SmqsWfbFAaSB6eGqA43s-1">
           <mxGeometry x="39" y="305" width="650" height="515" as="geometry" />
         </mxCell>
@@ -133,10 +133,10 @@
           <mxGeometry x="40" y="780" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmqsWfbFAaSB6eGqA43s-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SmqsWfbFAaSB6eGqA43s-1">
-          <mxGeometry x="-530" y="290" width="530" height="530" as="geometry" />
+          <mxGeometry x="-530" y="300" width="530" height="520" as="geometry" />
         </mxCell>
         <mxCell id="SmqsWfbFAaSB6eGqA43s-30" value="camera" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="SmqsWfbFAaSB6eGqA43s-1">
-          <mxGeometry x="-350" y="780" width="150" height="40" as="geometry" />
+          <mxGeometry x="-340" y="780" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmqsWfbFAaSB6eGqA43s-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SmqsWfbFAaSB6eGqA43s-1">
           <mxGeometry x="-200" y="840" width="890" height="820" as="geometry" />
@@ -144,7 +144,7 @@
         <mxCell id="SmqsWfbFAaSB6eGqA43s-50" value="Fiducial_SLAM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="SmqsWfbFAaSB6eGqA43s-1">
           <mxGeometry x="-200" y="1620" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1" value="模块" style="" parent="0" />
+        <mxCell id="1" value="模块" style="locked=1;" parent="0" />
         <mxCell id="SmqsWfbFAaSB6eGqA43s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="SmqsWfbFAaSB6eGqA43s-6" target="SmqsWfbFAaSB6eGqA43s-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
