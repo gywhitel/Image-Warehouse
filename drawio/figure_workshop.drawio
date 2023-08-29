@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T08:10:40.570Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="rzQBWflh_Uzfi6ItEWyz" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-29T08:35:07.118Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="niHcdOFzcWarcCqUfcUh" version="21.3.6" type="github" pages="2">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
-    <mxGraphModel dx="2901" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1857" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="-tubiMW4hBpiqMgosA95-1" value="传送带" style="" parent="0" />
@@ -122,29 +122,29 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XuQnnng7b7wH7JDiEtgx" name="第 2 页">
-    <mxGraphModel dx="2074" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1119" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="PMfoeralunIV8s7tCZFe-1" value="m" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="120" y="320" width="90" height="80" as="geometry" />
+        <mxCell id="1" value="模块" parent="0" />
+        <mxCell id="SmqsWfbFAaSB6eGqA43s-4" value="aruco_detect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PMfoeralunIV8s7tCZFe-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="360" as="sourcePoint" />
-            <mxPoint x="120" y="360" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="20" y="380" />
-              <mxPoint x="30" y="340" />
-              <mxPoint x="50" y="380" />
-              <mxPoint x="60" y="340" />
-              <mxPoint x="80" y="380" />
-              <mxPoint x="90" y="340" />
-              <mxPoint x="100" y="380" />
-              <mxPoint x="110" y="340" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="SmqsWfbFAaSB6eGqA43s-6" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;imageCallback&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;ul&gt;&lt;li&gt;marker detection&lt;/li&gt;&lt;li&gt;pose estimation&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="480" width="240" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="SmqsWfbFAaSB6eGqA43s-7" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;fiducial_msgs/FiducialTransform []&lt;/h1&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;marker_id&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;transform&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;image_error (reprojection error)&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;object_error&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SmqsWfbFAaSB6eGqA43s-8" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;TF (geometry_msgs/TransformStamped)&lt;/h1&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;timestamp&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;transform&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SmqsWfbFAaSB6eGqA43s-9" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;TF (geometry_msgs/TransformStamped)&lt;/h1&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;timestamp&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;transform&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="590" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SmqsWfbFAaSB6eGqA43s-10" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;image (sensor_msgs/image)&lt;/h1&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;timestamp&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;transform&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SmqsWfbFAaSB6eGqA43s-1" value="流程" style="locked=1;" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
