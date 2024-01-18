@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T03:08:08.558Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="6JYT7zFhB1-azF3gITHY" version="21.7.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-01-18T04:02:08.663Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="fRPdxEl0wRO7lFHTHpa2" version="22.1.17" type="github" pages="5">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
-    <mxGraphModel dx="1946" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1978" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="-tubiMW4hBpiqMgosA95-1" value="传送带" style="" parent="0" />
@@ -464,6 +464,32 @@
         </mxCell>
         <mxCell id="Em1wDuIpv5vAAOt0StX--11" value="`O_Y`" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="680" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z1CqjUqR0Fz_L2eASOJe" name="架构">
+    <mxGraphModel dx="1151" dy="1137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="240" height="301.25" as="geometry" />
+        </mxCell>
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-1" value="legged_controllers&lt;br&gt;(legged_FSM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="65" y="320" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OAIcj8lENpQMGfS9ryMH-2" target="OAIcj8lENpQMGfS9ryMH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-2" value="control_fsm&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="65" y="450" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-4" value="&lt;ul style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;passive&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;damper&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;recovery_stand&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;arm_planning&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;test&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;wbc&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="360" y="428.75" width="210" height="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-6" value="FSM state" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
