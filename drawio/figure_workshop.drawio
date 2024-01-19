@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T08:41:12.342Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="3b4N4SYXctFJlz3Tny8c" version="22.1.21" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-19T08:41:32.375Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="USmpS6UzZHrRMQPZxsJO" version="22.1.21" type="github" pages="5">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
     <mxGraphModel dx="1978" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -483,7 +483,7 @@
           <mxGeometry x="340" y="960" width="550" height="320" as="geometry" />
         </mxCell>
         <mxCell id="OAIcj8lENpQMGfS9ryMH-1" value="legged_controllers&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;(legged_controllers/legged_fsm.cpp)&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="340" y="960" width="340" height="60" as="geometry" />
+          <mxGeometry x="350" y="960" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OAIcj8lENpQMGfS9ryMH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="OAIcj8lENpQMGfS9ryMH-2" target="OAIcj8lENpQMGfS9ryMH-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
