@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T04:02:08.663Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="fRPdxEl0wRO7lFHTHpa2" version="22.1.17" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-19T08:41:12.342Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="3b4N4SYXctFJlz3Tny8c" version="22.1.21" type="github" pages="5">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
-    <mxGraphModel dx="1978" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1978" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="-tubiMW4hBpiqMgosA95-1" value="传送带" style="" parent="0" />
@@ -469,27 +469,78 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z1CqjUqR0Fz_L2eASOJe" name="架构">
-    <mxGraphModel dx="1151" dy="1137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OAIcj8lENpQMGfS9ryMH-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="320" width="240" height="301.25" as="geometry" />
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-304" y="690" width="600" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="OAIcj8lENpQMGfS9ryMH-1" value="legged_controllers&lt;br&gt;(legged_FSM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="65" y="320" width="210" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="OAIcj8lENpQMGfS9ryMH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OAIcj8lENpQMGfS9ryMH-2" target="OAIcj8lENpQMGfS9ryMH-4">
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="OAIcj8lENpQMGfS9ryMH-3" target="MF4s5p4EjHAO2W5ZvdEK-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OAIcj8lENpQMGfS9ryMH-2" value="control_fsm&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="65" y="450" width="210" height="150" as="geometry" />
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="960" width="550" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="OAIcj8lENpQMGfS9ryMH-4" value="&lt;ul style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;passive&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;damper&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;recovery_stand&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;arm_planning&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;test&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;wbc&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="360" y="428.75" width="210" height="192.5" as="geometry" />
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-1" value="legged_controllers&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;(legged_controllers/legged_fsm.cpp)&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="340" y="960" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OAIcj8lENpQMGfS9ryMH-6" value="FSM state" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="100" y="540" width="140" height="40" as="geometry" />
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="OAIcj8lENpQMGfS9ryMH-2" target="OAIcj8lENpQMGfS9ryMH-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-2" value="control_fsm&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="355" y="1090" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-4" value="&lt;div&gt;&amp;nbsp;State Machine&lt;/div&gt;&lt;ul style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;passive&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;damper&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;recovery_stand&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;arm_planning&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;test&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;wbc&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="670" y="1020" width="210" height="241.25" as="geometry" />
+        </mxCell>
+        <mxCell id="OAIcj8lENpQMGfS9ryMH-6" value="FSM state" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-1" value="legged_example/legged_hemera/hemera_hw" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="680" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-2" value="hemera_hw.cpp&lt;br&gt;main()" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-279" y="740" width="545" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MF4s5p4EjHAO2W5ZvdEK-4" target="MF4s5p4EjHAO2W5ZvdEK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-4" value="hardware interface initialization&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(hemera_hw/hardware_interface.cpp)&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-192.125" y="810" width="371.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MF4s5p4EjHAO2W5ZvdEK-5" target="MF4s5p4EjHAO2W5ZvdEK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-5" value="set controller loop&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(legged_hw/control_loop.cpp)&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-192.125" y="900" width="371.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-6" value="controller loop update&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(legged_hw/control_loop.cpp)&lt;/font&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;hardware interface read state feedback&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;controller update (compute control command) by ROS controller manager&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;hardware interface write command&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-240.81" y="1000" width="468.62" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.996;exitY=0.564;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="MF4s5p4EjHAO2W5ZvdEK-6" target="MF4s5p4EjHAO2W5ZvdEK-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="286" y="1110" as="sourcePoint" />
+            <mxPoint x="336" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="256" y="1130" />
+              <mxPoint x="256" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-15" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MF4s5p4EjHAO2W5ZvdEK-13" target="MF4s5p4EjHAO2W5ZvdEK-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="895" />
+              <mxPoint x="260" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-13" value="ROS controller manager" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="865" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF4s5p4EjHAO2W5ZvdEK-16" value="load dynamic library" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="930" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
