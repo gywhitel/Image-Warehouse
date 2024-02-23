@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T06:33:58.018Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="4KisD7dTYXlPqmtOBywG" version="22.1.21" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-23T06:34:18.726Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="zKBOMvS66LN0FPE7ctB9" version="22.1.21" type="github" pages="6">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
     <mxGraphModel dx="2901" dy="1239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -587,7 +587,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gJvZpt7Zlrh7b8NVNgIC-18" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="638" y="56" width="80" height="420" as="geometry" />
+          <mxGeometry x="639" y="59" width="80" height="420" as="geometry" />
         </mxCell>
         <mxCell id="gJvZpt7Zlrh7b8NVNgIC-19" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#000000;" vertex="1" parent="gJvZpt7Zlrh7b8NVNgIC-18">
           <mxGeometry x="23" y="393" width="27" height="27" as="geometry" />
