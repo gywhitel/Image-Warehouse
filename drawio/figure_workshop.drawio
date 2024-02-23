@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T10:04:49.668Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="UppsyknA2sSS6V04x3x8" version="23.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-23T11:48:07.916Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="y8ezmojF5OfH4FZ_DlFc" version="23.1.6" type="github" pages="7">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
     <mxGraphModel dx="2901" dy="1239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -656,15 +656,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0UPTxO0SsQ6xFeuJV4D9" name="WBC">
-    <mxGraphModel dx="1821" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1821" dy="1210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xghXSIXbgaTa4fKZ43_V-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;States&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Momenta of CoM:&amp;nbsp; `M&amp;nbsp;\dot p_{CoM} \in \mathbb R^6`&lt;div style=&quot;font-size: 20px;&quot;&gt;Generalized coordinates&#39; position: `[q_{base} \in \mathbb R^6, q_j \in \mathbb R^{n_j}]`&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="40" width="560" height="190" as="geometry" />
+        <mxCell id="xghXSIXbgaTa4fKZ43_V-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xghXSIXbgaTa4fKZ43_V-1" target="xghXSIXbgaTa4fKZ43_V-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xghXSIXbgaTa4fKZ43_V-2" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Inputs&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Contact forces&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Left foot: [left front, right front, left back, right back]&amp;nbsp; `\times [f_x, f_y, f_z] \in&amp;nbsp; \mathbb R^{4 \times 3}`&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; Right foot: [left front, right front, left back, right back]&amp;nbsp; `\times [f_x, f_y, f_z] \in&amp;nbsp; \mathbb R^{4 \times 3}`&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; Arm end-effector: [left EE, right EE]&lt;/blockquote&gt;`\times [f_x, f_y, f_z] \in&amp;nbsp; \mathbb R^{2 \times 3}`&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;Joint velocity: `[\dot q_j \in \mathbb R^{n_j}]`&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="210" width="1050" height="240" as="geometry" />
+        <mxCell id="xghXSIXbgaTa4fKZ43_V-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;States&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Momenta of CoM:&amp;nbsp; `M&amp;nbsp;\dot p_{CoM} \in \mathbb R^6`&lt;/li&gt;&lt;li&gt;Generalized coordinate position: `[q_{base} \in \mathbb R^6, q_j \in \mathbb R^{n_j}]`&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Times New Roman;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="7.5" width="550" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xghXSIXbgaTa4fKZ43_V-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xghXSIXbgaTa4fKZ43_V-2" target="xghXSIXbgaTa4fKZ43_V-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xghXSIXbgaTa4fKZ43_V-2" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Inputs&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/p&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; line-height: 90%;&quot;&gt;&lt;ul style=&quot;line-height: 90%;&quot;&gt;&lt;li&gt;Contact forces&lt;/li&gt;&lt;ul style=&quot;line-height: 90%;&quot;&gt;&lt;li&gt;Left foot: [left front, right front, left back, right back]&amp;nbsp; `\times [f_x, f_y, f_z] \in&amp;nbsp; \mathbb R^{4 \times 3}`&lt;/li&gt;&lt;li&gt;Right foot: [left front, right front, left back, right back]&amp;nbsp; `\times [f_x, f_y, f_z] \in&amp;nbsp; \mathbb R^{4 \times 3}`&lt;/li&gt;&lt;li&gt;Arm end-effector: [left EE, right EE] `\times [f_x, f_y, f_z] \in&amp;nbsp; \mathbb R^{2 \times 3}`&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Joint velocity: `[\dot q_j \in \mathbb R^{n_j}]`&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;br&gt;&lt;div style=&quot;font-size: 20px; line-height: 90%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Times New Roman;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="160" width="640" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="xghXSIXbgaTa4fKZ43_V-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Outputs&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Generalized coordinate acceleration:&amp;nbsp; `[\ddot q_{base} \in \mathbb R^6, \ddot q_j \in \mathbb R^{n_j}]`&lt;/li&gt;&lt;li&gt;Contact forces `[f_x, f_y, f_z] \in&amp;nbsp; \mathbb R^{10 \times 3}`&lt;/li&gt;&lt;li&gt;Joint torque: `\tau_j \in \mathbb R^{n_j}`&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Times New Roman;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-20" width="410" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="xghXSIXbgaTa4fKZ43_V-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xghXSIXbgaTa4fKZ43_V-4" target="xghXSIXbgaTa4fKZ43_V-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xghXSIXbgaTa4fKZ43_V-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;WBC&lt;/b&gt;&lt;/font&gt;&lt;br&gt;Whole Body Control" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="42.5" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
