@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T06:33:22.882Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="H5C-Ku955SWE8c9IzA7q" version="23.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-09T09:26:32.667Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="sbhBsfX75Jcp-u8E5yXD" version="23.1.6" type="github" pages="8">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
-    <mxGraphModel dx="2887" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2887" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="-tubiMW4hBpiqMgosA95-1" value="传送带" style="" parent="0" />
@@ -656,7 +656,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0UPTxO0SsQ6xFeuJV4D9" name="WBC">
-    <mxGraphModel dx="2460" dy="1575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2460" dy="1259" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -678,14 +678,46 @@
         <mxCell id="xghXSIXbgaTa4fKZ43_V-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="xghXSIXbgaTa4fKZ43_V-4" target="xghXSIXbgaTa4fKZ43_V-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rL69DT34k9J3ejxvVw4T-2" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="rL69DT34k9J3ejxvVw4T-2" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="324" y="-83.25" width="328" height="321.5" as="geometry" />
         </mxCell>
         <mxCell id="xghXSIXbgaTa4fKZ43_V-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 22px;&quot;&gt;WBC&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Whole Body Control&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;(Hierarchical&amp;nbsp;Quadratic Programming solver)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="rL69DT34k9J3ejxvVw4T-2" vertex="1">
           <mxGeometry width="328" height="321.5" as="geometry" />
         </mxCell>
-        <mxCell id="rL69DT34k9J3ejxvVw4T-1" value="&lt;b&gt;Tasks with prioritization&lt;br&gt;&lt;/b&gt;Task [A, b, D, f]&lt;br style=&quot;font-size: 20px;&quot;&gt;Equality constraints `Ax = b`&lt;br&gt;Inequality constraints `Dx &amp;lt; f`" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;strokeColor=default;" vertex="1" parent="rL69DT34k9J3ejxvVw4T-2">
+        <mxCell id="rL69DT34k9J3ejxvVw4T-1" value="&lt;b&gt;Tasks with prioritization&lt;br&gt;&lt;/b&gt;Task [A, b, D, f]&lt;br style=&quot;font-size: 20px;&quot;&gt;Equality constraints `Ax = b`&lt;br&gt;Inequality constraints `Dx &amp;lt; f`" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;strokeColor=default;" parent="rL69DT34k9J3ejxvVw4T-2" vertex="1">
           <mxGeometry x="36" y="134" width="268" height="111" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4no7_1UwB5Hpc1r3dwZC" name="第 8 页">
+    <mxGraphModel dx="824" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HlFAQJSeHUz8Z_bskZhG-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="430" as="sourcePoint" />
+            <mxPoint x="30" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlFAQJSeHUz8Z_bskZhG-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="430" as="sourcePoint" />
+            <mxPoint x="220" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlFAQJSeHUz8Z_bskZhG-3" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HlFAQJSeHUz8Z_bskZhG-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;glass=0;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HlFAQJSeHUz8Z_bskZhG-5" value="α" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="430" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HlFAQJSeHUz8Z_bskZhG-6" value="β" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="345" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
