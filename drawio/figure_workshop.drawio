@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T09:26:32.667Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="sbhBsfX75Jcp-u8E5yXD" version="23.1.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-09T09:27:50.072Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="SByvaj8hSL1hDnqZt2dr" version="23.1.6" type="github" pages="8">
   <diagram id="1NfUXGRbyNCHauA-c6Rg" name="传送带-相机">
     <mxGraphModel dx="2887" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -691,7 +691,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4no7_1UwB5Hpc1r3dwZC" name="第 8 页">
-    <mxGraphModel dx="824" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="824" dy="344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -718,6 +718,12 @@
         </mxCell>
         <mxCell id="HlFAQJSeHUz8Z_bskZhG-6" value="β" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="345" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HlFAQJSeHUz8Z_bskZhG-7" value="优的工作空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="189" y="304" width="80" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="HlFAQJSeHUz8Z_bskZhG-8" value="劣的工作空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="189" y="332" width="80" height="13" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
